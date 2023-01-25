@@ -5,6 +5,7 @@ import Script from 'next/script'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Footer from './footer'
 
 const name = 'Jonas Bučinskas'
 export const siteTitle = 'Every experience feeds ideas!'
@@ -66,6 +67,7 @@ export default function Layout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )}
+      <Footer/>
     </div>
   )
 }
