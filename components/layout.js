@@ -8,7 +8,7 @@ import Link from 'next/link'
 import Footer from './footer'
 
 const name = 'Jonas Bučinskas'
-export const siteTitle = 'Every experience feeds ideas!'
+export const siteTitle = 'Jonas Bučinskas - Every experience feeds ideas!'
 
 export default function Layout({ children, home }) {
   return (
@@ -17,16 +17,9 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.png" />
         <meta
           name="description"
-          content="Every experience feeds ideas!"
-        />
-        <meta
-          property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content="Jonas Bučinskas - Every experience feeds ideas!"
         />
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
         {home ? (
