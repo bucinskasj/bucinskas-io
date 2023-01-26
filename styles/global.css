@@ -8,11 +8,12 @@ body {
   line-height: 1.6;
   font-size: 18px;
   color: white;
+  background-color: #161313;
 }
 
 * {
   box-sizing: border-box;
-  background-color: #161313;
+  text-underline-position: under;
 }
 
 a {
