@@ -5,7 +5,7 @@ date: '2023-01-25'
 
 I love experimentation, iteration, creating proofs of concept. I, also, strongly believe that any code that is not in production is completely useless. That being said, as a person who ships software products for a living, the **#1 struggle** I have is launching something that is “good enough”. 
 
-Product launch that is “good enough” really means that
+Product launch that is “good enough” really means that:
 > “We just launched something that meets some baseline expectations of our potential buyers who use similar products already”. 
 
 I’m talking about products that are just another iteration of something that is out there. They have some new features, yes, but usually lack something that is already planned for Version 2. Basically, a net zero gain for the user that improves on some meaningless metric for a company. Moreover, the overall experience feels quirky. Interactive elements are misplaced, transitions feel strange, and the overall experience is just really dull.
