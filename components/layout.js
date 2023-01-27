@@ -19,7 +19,12 @@ export default function Layout({ children, home }) {
           name="description"
           content="Jonas Bučinskas - Every experience feeds ideas!"
         />
+        <meta
+          property="og:image"
+          content="/images/twitter-meta.png"
+        />
         <meta name="og:title" content={siteTitle} />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
         {home ? (
