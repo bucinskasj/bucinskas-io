@@ -21,10 +21,12 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content="/images/twitter-meta.png"
+          content="https://bucinskas.io/images/twitter-meta.png"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@bucinskas"/>
+
       </Head>
       <header className={styles.header}>
         {home ? (
