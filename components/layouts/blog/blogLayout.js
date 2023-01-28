@@ -1,16 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Script from 'next/script'
 
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
+import styles from './blogLayout.module.css'
+import utilStyles from '../../../styles/utils.module.css'
 import Link from 'next/link'
-import Footer from './footer'
+import Footer from '../../footer'
 
 const name = 'Jonas Bučinskas'
 export const siteTitle = 'Jonas Bučinskas - Every experience feeds ideas!'
 
-export default function Layout({ children, home }) {
+export default function BlogLayout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,6 +24,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" value="https://bucinskas.io"/>
         <meta name="twitter:creator" content="@bucinskas"/>
 
       </Head>
