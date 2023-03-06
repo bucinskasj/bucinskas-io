@@ -70,7 +70,7 @@ Just tell me things straight no matter the venue. It's really hard to offend me.
 - _I am a generalist:_ Some people call it “jack of all trades” and I like to call it “master of versatility”
 - _I embrace the suck:_ Monotonous and repetitive tasks are part of the game
 - _Every experience feeds ideas:_ I do believe in that and always try to experience something new
-- _I'm really competitive:_ I love competition! I embrace it and will always look for ways how to get ahead
+- _I'm really competitive:_ I love competition! I embrace it and will always look for ways to be ahead
 - _Sci-fi audiobook addict:_ Over 100 sci-fi audiobooks in my Audible library.
 
 ## 📚 Books that I always recommend
