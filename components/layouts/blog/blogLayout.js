@@ -1,19 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
 
-import styles from './blogLayout.module.css'
-import utilStyles from '../../../styles/utils.module.css'
-import Link from 'next/link'
-import Footer from '../../footer'
+import styles from "./blogLayout.module.css";
+import utilStyles from "../../../styles/utils.module.css";
+import Link from "next/link";
+import Footer from "../../footer";
 
-const name = 'Jonas Bučinskas'
-export const siteTitle = 'Jonas Bučinskas - Every experience feeds ideas!'
+const name = "Jonas Bučinskas";
+export const siteTitle = "Jonas Bučinskas - Every experience feeds ideas!";
 
 export default function BlogLayout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta
           name="description"
           content="Jonas Bučinskas - Every experience feeds ideas!"
@@ -24,9 +25,8 @@ export default function BlogLayout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" value="https://bucinskas.io"/>
-        <meta name="twitter:creator" content="@bucinskas"/>
-
+        <meta name="twitter:url" value="https://bucinskas.io" />
+        <meta name="twitter:creator" content="@bucinskas" />
       </Head>
       <header className={styles.header}>
         {home ? (
@@ -67,7 +67,7 @@ export default function BlogLayout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )}
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }
