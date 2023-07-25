@@ -68,6 +68,15 @@ export default function BlogLayout({ children, home }) {
         </div>
       )}
       <Footer />
+      <div>
+        <h2>Tech Events in Lithuania</h2>
+        <iframe
+          src="https://fiestos.com/api/v1/client/widget.js"
+          width="100%"
+          height="500px"
+          name="search_iframe"
+        ></iframe>
+      </div>
     </div>
   );
 }
