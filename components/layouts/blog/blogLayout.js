@@ -71,9 +71,10 @@ export default function BlogLayout({ children, home }) {
       <div>
         <h2>Tech Events in Lithuania</h2>
         <iframe
-          src="https://fiestos.com/api/v1/client/widget.js"
+          src="https://fiestos.com/api/v1/client/widget?country=Lithuania&subcategory=sub_csfzax1ekdzvwuyojo9r"
           width="100%"
-          height="500px"
+          height="600px"
+          border="none"
           name="search_iframe"
         ></iframe>
       </div>
