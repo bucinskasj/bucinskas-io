@@ -70,12 +70,15 @@ export default function BlogLayout({ children, home }) {
       <Footer />
       <div>
         <h2>Tech Events in Lithuania</h2>
+        <p>
+          This is a test widget for{" "}
+          <a href="https://fiestos.com">Fiestos.com</a>
+        </p>
         <iframe
           src="https://fiestos.com/api/v1/client/widget?country=Lithuania&subcategory=sub_csfzax1ekdzvwuyojo9r"
           width="100%"
-          height="600px"
-          border="none"
           name="search_iframe"
+          style={{ border: "none", height: "600px" }}
         ></iframe>
       </div>
     </div>
